@@ -23,9 +23,6 @@
 	
 	}
 11) in 'Stack.js' add the following line:
-       import { Node as Node } from './node';
-       import { Stack as Stack } from "./Stack.js";
-
        export class Stack {
 
 }

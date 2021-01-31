@@ -11,23 +11,23 @@ export class Stack {
     }
 
     push(value) {
-        console.log('PUSH');
+        // console.log('PUSH');
 
         let node = new Node(value, this.top);
         this.top = node;
-
+        console.log('PUSH <<<', value);
         this.print();
     }
 
     pop() {
-        console.log('POP');
+        // console.log('POP');
         let value = null;
 
         if (this.top) {
             value = this.top.value;
             this.top = this.top.nextNode;
         }
-
+        console.log('POP >>>', value);
         this.print();
         return value;
     }
