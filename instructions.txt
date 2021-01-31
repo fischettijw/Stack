@@ -1,0 +1,35 @@
+1) open Folder and create and select a new folder 'JS Stack Implementation'
+2) in vsCode add a file and name it 'index.html'
+3) type '!' and enter (Emmet HTML Boilerplate)
+4) in 'index.html' change <title> from document to "JS Stack Implementation"
+5) add the following to the <body>:
+   <body>
+       <script src="src/Stack.js"></script>
+       <script src="src/Node.js"></script>
+       <script src="src/StackScript.js"></script>
+       <script type="module" src="StackScript.js"></script>
+   </body>
+6) add the following to the <head>:
+       <link rel="shortcut icon" href="#">
+7) hit ctrl-s to save 'index.html'
+8) in vsCode add the following files:
+       "Node.js"
+       "Stack.js"
+       "StackScript.js"
+9) in 'StackScript.js' add the following lines:
+	import { Stack as Stack } from "./Stack.js";
+10) in 'Node.js' add the following line:
+	export class Node{
+	
+	}
+11) in 'Stack.js' add the following line:
+       import { Node as Node } from './node';
+       import { Stack as Stack } from "./Stack.js";
+
+       export class Stack {
+
+}
+12) Now code the files in this order:
+       "Node.js"
+       "Stack.js"
+       "StackScript.js"
